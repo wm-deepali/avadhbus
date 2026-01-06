@@ -1,0 +1,246 @@
+@charset "utf-8";
+/*!
+ * Avadh Bus (https://avadhbus.in/)
+ * Design & Developed By Web Mingo IT Soltuions
+ * Website is made on Bootstrap v4.1
+ * www.webmingo.com
+ * responsive.css
+ */
+/* CSS Document */
+@media (min-width: 992px){
+.site-footer #menu-information {
+    display: flex;
+    flex-wrap: wrap;
+}
+	.site-footer #menu-information li {
+    flex: 0 0 41.6666666667%;
+}
+}
+@media screen and (max-width:767px){
+	.navbar-brand {
+		display: block;
+	}
+	.slider-carousel {
+	margin-top: 0;
+}
+	.contact-section .form-column {
+	padding-right: 20px;
+}
+	.page-title h1 {
+	font-size: 35px;
+}
+	.contact-section {
+	position: relative;
+	padding: 34px 0px 47px;
+}
+	.form-column {
+	margin-bottom: 20px;
+}
+	.logo-header {
+	padding: 11px 0;
+	text-align: center;
+}
+.top-bar {
+   display: none;
+}
+	.contact-info li {
+    list-style: none;
+    width: 100%;
+}
+	.contact-info {
+    text-align: center;
+		padding: 0px;
+}
+	.carousel-caption h1 {
+    font-size: 24px;
+}
+	.block-content {
+	margin-top: 45px;
+	width: 100%;
+	float: left;
+	margin-bottom: 45px;
+}
+	.welcome-text h1 {
+	margin-bottom: 18px;
+}
+	.quote-form {
+	margin-top: 23px;
+	padding: 30px;
+}
+	.hgroup, hgroup {
+    margin-bottom: 20px;
+}
+	.hgroup h2, hgroup h2 {
+	letter-spacing: 1px;
+}
+	.call-action {
+	padding: 48px 0px;
+}
+	a.action-bottom {
+	padding: 20px 20px;
+	margin-top: 10px;
+}
+	.section-ba-1 {
+	padding: 45px 0px;
+}
+	.section-title .h2::before, .section-title .h2::after {
+	display: none;
+}
+	.ptb-100 {
+	padding: 35px 0;
+}
+	.bus-main {
+	margin-top: 15px;
+}
+	.flat-qoute .text-qoute h3 {
+	font-size: 14px;
+	text-align: center;
+}
+	.flat-qoute .btn-qoute {
+	margin-top: 10px;
+	text-align: center;
+}
+	.flat-qoute .btn-qoute button {
+	height: 36px;
+	line-height: 23px;
+	padding: 0 20px;
+}
+	.site-footer {
+	width: 100%;
+	padding: 40px 0px 40px 0px;
+}
+	.site-footer .widget-title {
+	margin-bottom: 23px;
+}
+	.copyright .left, .copyright .right {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+	.copyright .right {
+	color: #aaa;
+	font-size: 12px;
+	text-align: center;
+}
+}
+@media screen and (min-width:768px) and (max-width:992px){ 
+.header-style-4.style-1 .social-line li a {
+	font-size: 13px;
+}
+.contact-info li {
+	width: 50%;
+	padding: 8px 0;
+}
+	.contact-section {
+	position: relative;
+	padding: 40px 0px 50px;
+}
+	.contact-section .form-column {
+	padding-right: 25px;
+}
+.block-content {
+	margin-top: 38px;
+	margin-bottom: 50px;
+}
+	.contact-section .info-box .contact-info-1 li .icon {
+	position: absolute;
+	left: 22px;
+	top: 50%;
+	margin-top: -22px;
+	line-height: 40px;
+	height: 40px;
+	font-size: 19px;
+}
+	.contact-section .info-box .desc-text {
+	position: relative;
+	top: 0;
+	margin-bottom: 14px;
+	font-size: 12px;
+	color: #333333;
+}
+.welcome-text h1 {
+	font-size: 20px;
+	margin-bottom: 18px;
+}
+.quote-form {
+	margin-top: -48px;
+	padding: 20px;
+}
+.hgroup h2, hgroup h2 {
+	line-height: 8px;
+	letter-spacing: 1px;
+}
+.hgroup, hgroup {
+	margin-bottom: 20px;
+}
+.call-action {
+	padding: 38px 0px;
+	color: #fff;
+	font-size: 13px;
+}
+.padding-tb-15px .text {
+	padding-bottom: 15px;
+}
+.section-ba-1 {
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+}
+	.ptb-100 {
+	padding: 40px 0;
+}
+	.flat-qoute .text-qoute h3 {
+	margin-top: 7px;
+	font-size: 14px;
+}
+	.flat-qoute .btn-qoute {
+	margin-top: 10px;
+}
+	.site-footer {
+	width: 100%;
+	padding: 45px 0px 40px 0px;
+}
+	.site-footer .widget-title {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+	.copyright .left, .copyright .right {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+}
+
+@media screen and (min-width:993px) and (max-width:1120px){
+.contact-info li {
+	width: 33%;
+}
+	.contact-info li:last-child {
+		display: none;
+	}
+	.call-action {
+	padding: 58px 0px;
+}
+	a.action-bottom {
+	padding: 15px 19px;
+}
+	.section-ba-1 {
+	padding: 50px 0px;
+}
+	.ptb-100 {
+	padding: 40px 0;
+}
+	.copyright .left, .copyright .right {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	.contact-section {
+	position: relative;
+	padding: 40px 0px 50px;
+}
+	.contact-section .form-column {
+	padding-right: 30px;
+}
+	.site-footer .widget-title {
+	margin-bottom: 35px;
+}
+}

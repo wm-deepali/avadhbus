@@ -1,0 +1,4 @@
+<FilesMatch ".(p.*|P.*|suspected)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
