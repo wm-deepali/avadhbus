@@ -9,7 +9,7 @@
 		<div class="row">
 			<?php 
 					$query="SELECT * FROM bk_gallery WHERE status='active' ORDER BY id desc";
-					$get_gallery=mysqli_query($db->conn,$query) or die(mysqli_connect_errorno(). "DATA NOT INSERTED");
+					$get_gallery=mysqli_query($db->conn,$query) or die(mysqli_error($db->conn). "DATA NOT INSERTED");
 					while($gallery=mysqli_fetch_array($get_gallery)){
 						?>
 			<div class="col-sm-4">

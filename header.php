@@ -1,10 +1,10 @@
 <?php include('administrator/connection.php'); ?>
 <?php 
 $query="SELECT * FROM bk_general_setting WHERE status='active'";
-$get_general_setting=mysqli_query($db->conn,$query) or die(mysqli_connect_errorno(). "DATA NOT INSERTED");
+$get_general_setting=mysqli_query($db->conn,$query) or die(mysqli_error($db->conn). "DATA NOT INSERTED");
 $general_setting=mysqli_fetch_array($get_general_setting);
 $query="SELECT * FROM bk_social_media WHERE status='active'";
-$get_social_media=mysqli_query($db->conn,$query) or die(mysqli_connect_errorno(). "DATA NOT INSERTED");
+$get_social_media=mysqli_query($db->conn,$query) or die(mysqli_error($db->conn). "DATA NOT INSERTED");
 $social_media=mysqli_fetch_array($get_social_media);
 ?>
 <!DOCTYPE html>

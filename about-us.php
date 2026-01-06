@@ -6,7 +6,7 @@
 </section>
 <?php 
 				$query="SELECT * FROM bk_about WHERE status='active'";
-				$get_about=mysqli_query($db->conn,$query) or die(mysqli_connect_errorno(). "DATA NOT INSERTED");
+				$get_about=mysqli_query($db->conn,$query) or die(mysqli_error($db->conn). "DATA NOT INSERTED");
 				$about=mysqli_fetch_array($get_about);
 				?>
 <div class="block-content">

@@ -13,7 +13,7 @@
                     <div class="col-lg-8">
                         <?php 
                             $query="SELECT * FROM bk_about_us WHERE status='active'";
-                            $get_about_us=mysqli_query($db->conn,$query) or die(mysqli_connect_errorno(). "DATA NOT INSERTED");
+                            $get_about_us=mysqli_query($db->conn,$query) or die(mysqli_error($db->conn). "DATA NOT INSERTED");
                             $about_us=mysqli_fetch_array($get_about_us);
                             ?>
                         <div class="des"><?= $about_us['content']; ?></div>
@@ -25,7 +25,7 @@
             <div class="row">
                 <?php 
                     $query="SELECT * FROM bk_services WHERE status='active'";
-                    $get_services=mysqli_query($db->conn,$query) or die(mysqli_connect_errorno(). "DATA NOT INSERTED");
+                    $get_services=mysqli_query($db->conn,$query) or die(mysqli_error($db->conn). "DATA NOT INSERTED");
                     while($services=mysqli_fetch_array($get_services)){
                         ?>
                 <div class="col-lg-4 col-md-4">
